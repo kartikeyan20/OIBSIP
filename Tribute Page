@@ -1,203 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<style>
-
-		/* Styling the body element
-		like body color and margin */
-		
-		body {
-			background-color: #00FA9A;
-			margin: 20%;
-		}
-
-		/* Styling the Title and giving
-		shadow to the title */
-		#title {
-			text-align: center;
-			text-shadow: 5px 5px 10px white;
-			font-size: 7vh;
-		}
-
-		/* Setting width and display
-		type of image */
-		img {
-			display: inline-block;
-			width: 100%;
-		}
-
-		/* Setting font color and font
-		size of the image-caption */
-		#caption {
-			font-size: 17px;
-			font-family: Gill Sans;
-			color: black;
-		}
-
-		/* Styling the content of the page like-
-		padding, font-size, font color etc.*/
-		div#tribute-data {
-			background-color: rgb(46, 139, 87, 0.25);
-			box-shadow: 20px 20px 20px #98FB98;
-			font-family: Georgia;
-			padding: 25px 25px;
-			margin: 11px;
-			margin-top: 50px;
-		}
-
-		/* Styling the title of the content */
-		h1.title-APJ {
-			font-size: 35px;
-			color: white;
-			text-align: center;
-			text-shadow: 5px 5px 10px black;
-		}
-
-		/* Styling the link provided at the end */
-		#tribute-link {
-			text-decoration: none;
-			color: black;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
 </head>
-
 <body>
-	<main id="main">
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="text-center text-primary">Narendra Modi: The Prime Minister Of India</h1>
+        <img class="center-block img-responsive img-rounded"
+            src="http://cdn.narendramodi.in/wp-content/uploads/2014/05/profile-260514-feature1.jpg">
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="well">
+                <h2 class="text-center">QUICK FACTS</h2>
+                <ul>
+                    <li><strong>NAME</strong>- Narendra Modi.</li>
+                    <li><strong>OCCUPATION</strong>- Prime Minister, Politician</li>
 
-		<!-- Title of the page -->
-		<h1 id="title">
-			A. P. J. Abdul Kalam
-		</h1>
+                    <li><strong>BIRTH DATE</strong>- September 17, 1950 (age 66)
+                    </li>
+                    <li><strong>EDUCATION
+                        </strong>- Gujarat University, Delhi University</li>
+                    <li><strong>PLACE OF BIRTH</strong>- Vadnagar, India
+                    </li>
+                    <li><strong>FULL NAME</strong>- Narendra Damodardas Modi</li>
+                    <li><strong>ZODIAC SIGN</strong>- Virgo</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="well">
+                <h3><strong>Synopsis</strong></h3>
+                <p>Narendra Modi grew up in the town of Vadnagar in India, the son of a street merchant. He entered
+                    politics as a youth and quickly rose through the ranks of Rashtriya Swayamsevak Sangh, a Hindu
+                    nationalist political party. Modi later joined the mainstream Bharatiya Janata Party in 1987,
+                    eventually becoming national secretary. In 2002, he was alleged to be responsible for the deaths of
+                    more than 1,000 Muslims during civil unrest but was later exonerated. In 2014 he was elected prime
+                    minister of India.</p>
+                <h3><strong>Background</strong></h3>
+                <p>Narendra Modi was born in the small town of Vadnagar, in northern Gujarat, India. His father was a
+                    street merchant who struggled to support the family. Young Narendra and his brother sold tea near a
+                    bus terminal to help out. Though an average student in school, Modi spent hours in the library and
+                    was known as a strong debater. In his early teens, he joined Akhil Bharatiya Vidyarthi Parishad, the
+                    student wing of Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist political party. </p>
+                <h3><strong>Life Dedicated to Politics</strong></h3>
+                <p>Modi had an arranged married at 18 but spent little time with his bride. The two eventually
+                    separated, with Modi claiming to be single for some time. He dedicated his life to politics in
+                    Gujarat, joining the RSS in 1971. During the 1975-77 political crisis, Prime Minister Indira Gandhi
+                    declared a state of emergency, banning political organizations such as the RSS. Modi went
+                    underground and wrote a book, Sangharsh ma Gujarat (Gujarat in Emergency), which chronicles his
+                    experiences as a political fugitive. In 1978, Modi graduated from Delhi University with a degree in
+                    political science and completed his master’s work at Gujarat University in 1983.</p>
+                <p>In 1987, Narendra Modi joined the Bharatiya Janata Party (BJP), which stood for Hindu nationalism.
+                    His rise through the ranks was rapid, as he wisely chose mentors to further his career. He promoted
+                    privatization of businesses, small government and Hindu values. In 1995, Modi was elected BJP
+                    national secretary, a position from which he successfully helped settle internal leadership
+                    disputes, paving the way for BJP election victories in 1998.</p>
+                <h3><strong>Gulbarg Massacre and Alleged Complicity</strong></h3>
+                <p>In February 2002, while Modi served as chief minister of Gujarat, a commuter train was attacked,
+                    allegedly by Muslims. In retaliation, an attack was carried out on the Muslim neighborhood of
+                    Gulbarg. Violence spread, and Modi imposed a curfew granting police shoot-to-kill orders. After
+                    peace was restored, Modi’s government was criticized for the harsh crackdown, and he was accused of
+                    allowing the killings of more than 1,000 Muslims, along with the mass raping and mutilation of
+                    women. After two investigations contradicted one other, the Indian Supreme Court concluded there was
+                    no evidence Modi was at fault.</p>
+                <p>Narendra Modi was reelected chief minister of Gujarat in 2007 and 2012. Through those campaigns,
+                    Modi's hard-line Hinduism softened and he spoke more about economic growth, focusing on
+                    privatization and encouraging policies to shape India as a global manufacturing epicenter. He is
+                    credited with bringing prosperity and development to Gujarat and is seen as a corrupt-free and
+                    efficient administrator. However, some say he has done little to alleviate poverty and improve
+                    living standards. </p>
+                <h3><strong>Elected Prime Minister</strong></h3>
 
-		<div id="img">
+                <p>In June 2013, Modi was selected to head the BJP’s 2014 election campaign to the Lok Sabha (the lower
+                    house of India’s parliament), while a grassroots campaign was already in place to elect him prime
+                    minister. Modi campaigned hard, portraying himself as a pragmatic candidate capable of turning
+                    around India’s economy, while his critics portrayed him as a controversial and divisive figure. In
+                    May 2014, he and his party were victorious, taking 282 of the 534 seats in the Lok Sabha. The
+                    victory marked a crushing defeat to the Indian National Congress, which had controlled country
+                    politics for most of the previous 60 years, and sent a message that India’s citizens were behind an
+                    agenda that moved away from a secular, socialist state to a more capitalist-leaning economy with
+                    Hindu nationalism at its core.</p>
+                <p>On May 26, 2014 Modi was sworn in as the 14th prime minister of India and the first to have been born
+                    after the country got its independence from the U.K.</p>
+                <h3><strong>Policy</strong></h3>
+                <p>Since becoming prime minister, Modi has encouraged foreign businesses to invest in India. He has
+                    lifted various regulations - permits and inspections - so that businesses could grow more easily. He
+                    has decreased spending on social welfare programs and has encouraged the privatization of
+                    healthcare, although he has devised a policy on universal healthcare for those citizens with serious
+                    ailments. In 2014 he launched a "Clean India" campaign, which focused on sanitation and the
+                    construction of millions of toilets in rural areas. </p>
+                <p>His environment policies have been lax, especially when those policies hamper industrial growth. He
+                    has lifted restrictions on protecting the environment and is more open to the use of genetically
+                    modified crops, despite protests from India's farmers. Under Modi's power, he has suppressed the
+                    influence of civil society organizations, such as Greenpeace, the Sierra Club, Avaaz, and other
+                    humanitarian groups, citing they prevent economic growth.</p>
+                <p>In terms of foreign policy, Modi has taken on a multilateral approach. He has participated in the
+                    BRICS, ASEAN, and G20 summits, as well as aligned himself with the United States, China, Japan and
+                    Russia to improve economic and political ties. He has also reached out to Islamic republics, most
+                    notably fostering diplomatic ties with Pakistan, although he has repeatedly labeled the country a
+                    "terrorist state" and an "exporter of terrorism."</p>
+                <p>Under his rule, Modi has substantially centralized his power compared to previous administrations.
+                </p>
+                <h3><strong>Global Recognition</strong></h3>
+                <p>In 2016 Modi won the reader's poll as TIME's Person of the Year. In previous years, he had received
+                    top ranking as one of the most influential political figures in the world in both TIME and Forbes
+                    Magazine. He is only second to President Obama for having the most social media followers as a
+                    political figure. With high favorability ratings among Indian voters, Modi has a reputation for
+                    actively engaging citizens through social media and encouraging his own administration to stay
+                    active on its platforms. </p>
+                <p style="font-family: 'Chewy', cursive; font-size:20px">For more information click <a
+                        href="https://en.wikipedia.org/wiki/Narendra_Modi" target="_blank">here</a></p>
+            </div>
+        </div>
+    </body>   
+    </html> 
+    
+    
+    
+    
+    CSS
+    
+    
+    h1 {
+    font-family: 'Taviraj', serif;
+    font-size: 50px;
+}
 
-			<!--Image of the Tribute Person-->
-			<img src="APJ Kalam.png" id="image"
-				alt="Error Loading Image">
-			<small id="caption">
-				Great Indian scientist and
-				politician who played a leading
-				role in the development of India’s
-				missile and nuclear weapons
-				programs.
-			</small>
-		</div>
+h2 {
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
 
-		<div id="tribute-data">
+}
 
-			<!--Achievements and other
-				details of the person-->
-			<h1 class="title-APJ">
-				About the Legend
-			</h1>
+h3 {
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+}
 
-			
+li {
+    font-size: 20px;
+    font-family: 'Rokkitt', serif;
+}
 
-<p>
-				☛ A.P.J. Abdul Kalam, in full
-				Avul Pakir Jainulabdeen Abdul Kalam,
-				was born on October 15, 1931, in
-				Rameswaram, Tamil Nadu, India.<br><br>
-				☛ He served as the 11th President
-				of India from 2002 to 2007.<br><br>
-				☛ Kalam earned a degree in
-				aeronautical engineering from the
-				Madras Institute of Technology and in
-				1958 joined the Defence Research and
-				Development Organisation (DRDO).<br><br>
-				☛ In 1969, he moved to the Indian
-				Space Research Organisation, where he
-				was project director of the SLV-III, the
-				first satellite launch vehicle that was
-				both designed and produced in India.
-				<br><br> ☛ Rejoining DRDO in 1982,
-				Kalam planned the program that produced
-				a number of successful missiles, which
-				helped earn him the nickname <strong>
-				“Missile Man.”</strong>
-				<br><br> ☛ Among those successes
-				was Agni, India’s first intermediate-range
-				ballistic missile, which incorporated
-				aspects of the SLV-III and was launched
-				in 1989.
-				<br><br> ☛ He also played a
-				pivotal organisational, technical,
-				and political role in India's Pokhran-II
-				nuclear tests in 1998, the first since
-				the original nuclear test by India in 1974.
-				<br><br> ☛ From 1992 to 1997 Kalam
-				was scientific adviser to the defense
-				minister, and he later served as principal
-				scientific adviser (1999–2001) to the
-				government with the rank of cabinet minister.
-				<br><br> ☛ His prominent role in
-				the country’s 1998 nuclear weapons tests
-				solidified India as a nuclear power and
-				established Kalam as a national hero,
-				although the tests caused great concern
-				in the international community.
-				<br><br> ☛ In 1998 Kalam put
-				forward a countrywide plan called
-				Technology Vision 2020, which he described
-				as a road map for transforming India from
-				a less-developed to a developed society
-				in 20 years. The plan called for, among
-				other measures, increasing agricultural
-				productivity, emphasizing technology as
-				a vehicle for economic growth, and
-				widening access to health care and
-				education.
-				<br><br> ☛ Kalam received <b>7</b>
-				honorary doctorates from <b>40</b>
-				universities. The Government of India
-				honoured him with the <b>Padma Bhushan
-				in 1981</b> and the <b>Padma Vibhushan
-				in 1990</b> for his work with ISRO and
-				DRDO and his role as a scientific advisor
-				to the Government.
-				<br><br> ☛ In 1997, Kalam received
-				India's highest civilian honour, the
-				Bharat Ratna, for his contribution to
-				the scientific research and modernisation
-				of defence technology in India.
-				<br><br> ☛ In 2013, he was the
-				recipient of the Von Braun Award from
-				the National Space Society "to recognize
-				excellence in the management and leadership
-				of a space-related project".
-				<br><br> ☛ While delivering a
-				lecture at the Indian Institute of
-				Management Shillong, Kalam collapsed and
-				died from an apparent cardiac arrest on
-				<b>27 July 2015</b>, aged 83.
-				<br><br> ☛ Wheeler Island, a
-				national missile test site in Odisha, was
-				renamed <b>Kalam Island</b> in September
-				2015.
-				<br><br> ☛ A prominent road in
-				New Delhi was renamed from Aurangzeb
-				Road to <b>Dr APJ Abdul Kalam Road</b>
-				in August 2015.
-				<br><br> ☛ In February 2018,
-				scientists from the Botanical Survey
-				of India named a newly found plant
-				species as Drypetes kalamii, in his
-				honour.
-				<br><br><br>
-			</p>
-
-
-		</div>
-		<br>
-		 For more information,
-		check out
-		<a id="tribute-link" href="#">
-			<b>A.P.J. Abdul Kalam</b> on Wikipedia. [
-			<small>Developed by @<a href="#">
-					Sushant Gaurav.</a></a>
-		</small>]
-	</main>
-</body>
-
-</html>
+body {
+    padding: 15px 15px 15px 15px;
+}
